@@ -44,6 +44,7 @@ nav a{
 .p{
     color:#0a5247 ;
     font-family: 'montserrat', sans-serif;
+    
 }
 .part1{
     background-color:#bfd202;
@@ -58,9 +59,12 @@ z-index: auto;
     background-color:#0a5247 ;
    justify-content: baseline;
  }
-     .shape, .shape2 {
-        width: 100%;
-        height: auto;
+     .shape{
+        border-radius: 50% 10%/ 50% 10%;
+        border: 8px #0a5247 double;
+      }
+      .shape2{
+       border: 8px #0a5247 double;
       }
 a{ 
     text-decoration: none;
